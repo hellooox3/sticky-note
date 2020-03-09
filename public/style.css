@@ -1,0 +1,91 @@
+/* .header{
+    width:100%;
+    height:10vh;
+    background-color: orangered;
+} */
+
+*{
+    padding:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+body{
+    background-color: #eee;
+    /* padding: 0 16px; */
+}
+
+/* h1{
+    width:100vw;
+    height:10vh;
+    background-color: orange;
+    color:white;
+    
+} */
+
+header{
+    background-color: #f5ba13;
+    /* margin:auto -16px; */
+    padding:16px 32px;
+    box-shadow:0 0 10px 0 rgba(0,0,0,0.3);
+}
+
+header h1{
+    color:#fff;
+    /* font-family: ; */
+    font-weight: 200;
+}
+
+/* .note{
+    background-color: grey;
+    /* width:22vw;
+    height:22vh;
+    margin:20px; */
+    /* width:200px;
+    height:200px;
+    margin:20px;} */
+
+    .note{
+        background: #fff;
+        border-radius: 7px;
+        box-shadow: 0 2px 5px #ccc;
+        width:240px;
+        padding:10px;
+        margin:16px;
+        float:left;
+    }
+
+    .note h1{
+        font-size:1.1em;
+        margin-bottom: 6px;
+    }
+
+    .note p{
+        font-size: 1.1em;
+        margin-bottom: 10px;
+        white-space: pre-wrap;
+        word-wrap: break-word;
+    }
+
+
+.footer{
+    /* background-color: #eee; */
+    position: absolute;
+    text-align:center;
+    bottom:0;
+    width:100vw;
+    height:2.5rem;
+}
+
+.footer p{
+    color:#ccc;
+}
+
+
+
+
+
